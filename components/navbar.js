@@ -10,11 +10,11 @@ const Navbar = () => {
     return (
         <div className='bg-mit-nav-white fixed top-0 left-0 right-0 z-10 py-2.5 '>
             <nav className="text-white mx-auto max-w-7xl backdrop-blur-3xl">
-                <div className="grid grid-cols-2 items-center justify-around my-auto max-w-screen-7xl px-0 mx-auto">
+                <div className="grid grid-cols-2 items-center justify-around my-auto max-w-screen-7xl md:px-2 px-0 mx-auto">
                     <a href="/" className="flex items-center">
                         <img src="https://jaipur.manipal.edu/img/manipal-university-jaipur-logo.svg" className="w-[144px] pt-4 lg:w-48 px-3 lg:px-0" alt="MUJ Logo" />
                     </a>
-                    <div className="flex items-center justify-end lg:order-2">
+                    <div className="flex justify-end lg:order-2">
                         <div className="hidden mt-2 mr-4 sm:inline-block">
                             <span></span>
                         </div>
