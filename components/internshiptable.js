@@ -14,7 +14,7 @@ const Internshiptable = () => {
                         <th scope="col" className="px-6 py-3">
                             Internship Name
                         </th>
-                        <th scope="col" className="px-6 py-3">
+                        <th scope="col" className="px-6 hidden md:block py-3">
                             Description & Benefits
                         </th>
                         <th scope="col" className="px-6 py-3">
@@ -31,7 +31,7 @@ const Internshiptable = () => {
                         <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                             {data.name}
                         </th>
-                        <td className="px-6 py-4">
+                        <td className="px-6 hidden md:block py-4">
                             {data.description}
                         </td>
                         <td className="px-6 py-4">
