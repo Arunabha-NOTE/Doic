@@ -7,11 +7,11 @@ import 'slick-carousel/slick/slick-theme.css';
 const Hero = () => {
     // Sample images for the carousel
     const images = [
-        'https://doic-web.vercel.app/doic1.jpeg',
-        'https://doic-web.vercel.app/doic2.jpeg',
-        'https://doic-web.vercel.app/doic6.jpg',
-        'https://doic-web.vercel.app/doic7.jpg',
-        "https://doic-web.vercel.app/doic8.jpg",
+        'https://doic-weld.vercel.app/doic1.jpeg',
+        'https://doic-weld.vercel.app/doic2.jpeg',
+        'https://doic-weld.vercel.app/doic6.jpg',
+        'https://doic-weld.vercel.app/doic7.jpg',
+        "https://doic-weld.vercel.app/doic8.jpg",
     ]
 
     const settings = {
